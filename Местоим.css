@@ -1,0 +1,214 @@
+body{
+    margin:0;
+    padding:0;
+    max-width: 1920px;
+    min-width: 600px;
+    overflow:scroll;
+    width: 100%;
+    background-image: url('небо.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html	{
+	animation: hblok 25s ease-in-out infinite;
+	/*padding: 160px 20px;*/
+	text-align: center;
+	background-repeat: no-repeat;
+	margin:0;
+	max-width: 1920px;
+	min-width: 600px; 
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+	/*background-size: 2900px 2300px;*/
+}
+
+@media (min-width: 600px); 
+
+li {
+	list-style-type: none;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+	font-family:'Lora', serif;
+	transition: .5s linear;
+	font-size: 100%;
+}
+h3 {
+	text-decoration: none;
+	font-family:'Lora', serif;
+	font-size: 100%;
+	color: #9B4222;
+	padding-left: 14px;
+	ransition: .8s linear;
+}
+nav {
+	display: block;
+	max-width: 1700px 147px;
+	min-width: 480px;
+	margin: 40px;
+	border-radius: 8px;
+}
+.menu ul {
+display: -webkit-flex;
+display: flex;
+background: #FFDE5A;
+padding-left: 0;
+}
+.menu a {
+	padding: 1em;
+	display: block;
+	color: #9B4222;
+	border-right: 1px solid #FFDE5A;
+	background: #FFDE5A;
+}
+.menu a:hover {background: white;}
+.log {
+	width: 70px;
+}
+li {
+	padding-left: 90px;
+}
+.head {
+	margin-top: 13px;
+	border-radius: 14px;
+}
+.hdr{
+    background-color: white;
+    max-width: 850px;
+    min-width: 500px;
+    height: 1900px;
+    border-radius: 10px;
+    border: 3px solid #80b1d1;
+    margin: auto;
+    margin-top: 78px;
+    margin-bottom: 78px;
+    padding: 50px;
+}
+.kaz {
+	text-decoration: none;
+    font-family:'Lora', serif;
+    font-size: 100%;
+    color: #9B4222;
+    padding-left: 7px;
+    ransition: .8s linear;
+}
+.kaz5 {
+	text-decoration: none;
+    font-family:'Lora', serif;
+    font-size: 100%;
+    color: black;
+    padding-left: 7px;
+    ransition: .8s linear;
+}
+small {
+	text-decoration: none;
+    font-family:'Lora', serif;
+    font-size: 100%;
+    color: black;
+    ransition: .8s linear;
+}
+td {
+	text-align: left;
+}
+.p {
+	 text-decoration: none;
+    font-family:'Lora', serif;
+    font-size: 100%;
+    color: black;
+    padding-left: 7px;
+    ransition: .8s linear;
+    font-size: 20px;
+    margin-bottom: 41px;
+    font-weight: bold;
+}
+.tblc {
+	margin: auto;
+}
+.kaz1 {
+	text-decoration: none;
+    font-family:'Lora', serif;
+    font-size: 100%;
+    color: black;
+    ransition: 0.9s linear;
+    margin-top: 40px;
+}
+.kaz2 {
+	text-decoration: none;
+    font-family:'Lora', serif;
+    font-size: 100%;
+    color: black;
+    ransition: 0.9s linear;
+}
+.p1 {
+		margin-top: 40px;
+		text-decoration: none;
+		font-family:'Lora', serif;
+		font-size: 100%;
+		color: black;
+		padding-left: 7px;
+		ransition: .8s linear;
+		font-size: 20px;
+		margin-bottom: 41px;
+		font-weight: bold;
+}
+.p2 {
+		margin-top: 20px;
+		text-decoration: none;
+		font-family:'Lora', serif;
+		font-size: 100%;
+		color: black;
+		ransition: .8s linear;
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: -12px;
+}
+.ber {
+	text-decoration: none;
+    font-family:'Lora', serif;
+    font-size: 100%;
+    color: black;
+    ransition: .8s linear;
+}
+.pravila {
+	text-decoration: none;
+    font-family:'Lora', serif;
+    font-size: 100%;
+    color: black;
+}
+
+.print {
+	display: block;
+	text-align: right
+}
+.imprin {
+	width: 60px;
+	height: 60px;
+}
+.kaz3 {
+	margin-top: 10px;
+	text-decoration: none;
+    font-family:'Lora', serif;
+    font-size: 100%;
+    color: black;
+    ransition: 0.9s linear;
+}
+.ps {
+	margin-top: 35px;
+    text-decoration: none;
+    font-family:'Lora', serif;
+    font-size: 100%;
+    color: black;
+    padding-left: 7px;
+    ransition: .8s linear;
+    font-size: 20px;
+    font-weight: bold;
+}
+.kaz4 {
+	margin-top: 10px;
+	text-decoration: none;
+    font-family:'Lora', serif;
+    font-size: 100%;
+    color: black;
+    ransition: 0.9s linear;
+}

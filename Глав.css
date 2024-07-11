@@ -1,0 +1,272 @@
+@import 
+url(https: //fonts.googleapis.com/css?famil=Lora);
+body{
+    margin:0;
+    padding:0;
+    max-width: 1920px;
+    min-width: 600px;
+    overflow:scroll;
+    width: 100%;
+}
+html	{
+	animation: hblok 25s ease-in-out infinite;
+	/*padding: 160px 20px;*/
+	text-align: center;
+	background-image: url(небо.jpg); /* Фоновая картинка */
+	background-repeat: no-repeat;
+	margin:0;
+	max-width: 1920px;
+	min-width: 600px; 
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+	/*background-size: 2900px 2300px;*/
+}
+
+@media (min-width: 600px); 
+
+li {
+	list-style-type: none;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+	font-family:'Lora', serif;
+	transition: .5s linear;
+	font-size: 100%;
+}
+h3 {
+	text-decoration: none;
+	font-family:'Lora', serif;
+	font-size: 100%;
+	color: #9B4222;
+	padding-left: 14px;
+	ransition: .8s linear;
+}
+h1 {
+	text-transform: inherit;
+	font-family:'Lora', serif;
+	font-size: 340%;
+	color: black;
+	/*white-space: pre;*/
+	text-align: justify;
+}
+nav {
+	display: block;
+	max-width: 1700px 147px;
+	min-width: 480px;
+	margin: 40px;
+	border-radius: 8px;
+}
+.menu ul {
+display: -webkit-flex;
+display: flex;
+background: #FFDE5A;
+padding-left: 0;
+}
+.menu a {
+	padding: 1em;
+	display: block;
+	color: #9B4222;
+	border-right: 1px solid #FFDE5A;
+	background: #FFDE5A;
+}
+.menu a:hover {background: white;}
+.log {
+	width: 70px;
+}
+li {
+	padding-left: 90px;
+}
+.head {
+	margin-top: 13px;
+	border-radius: 14px;
+}
+.body {
+	max-width: 1780px 1000px;
+	min-width: 560px;
+	background: #FFDE5A;
+	overflow: hidden;
+	padding-top: 90px;
+	padding-left: 210px;
+	margin: 40px;
+}
+.fl {
+	max-width: 600px;
+	object-fit: cover;
+	float: right;
+	margin-top: -340px;
+}
+.blok, .blok1{
+	position: relative;
+    max-width: 1780px 100px;
+    min-width: 560px;
+    display: block;
+    margin: 90 auto;
+    padding: 0;
+    text-align: center;
+}
+.b1{
+display: inline-block;
+border: 1px black ;
+padding: 9px 16px;
+width: 200px;
+height: 150px;
+margin: 70px;
+}
+.b2{
+display: inline-block;
+border: 1px black ;
+padding: 9px 16px;
+width: 200px;
+height: 150px;
+margin: 70px;
+}
+.b3{
+display: inline-block;
+border: 1px black ;
+padding: 9px 16px;
+width: 200px;
+height: 150px;
+margin: 70px;
+}
+.b4{
+display: inline-block;
+border: 1px black ;
+padding: 9px 16px;
+width: 200px;
+height: 150px;
+margin: 70px;
+}
+.b5{
+display: inline-block;
+border: 1px black ;
+padding: 9px 16px;
+width: 200px;
+height: 150px;
+margin: 70px;
+}
+.b6{
+display: inline-block;
+border: 1px black ;
+padding: 9px 16px;
+width: 200px;
+height: 150px;
+margin: 70px;
+}
+.b1:hover {background: #FFDE5A;-webkit-transform: scale(1.2);-ms-transform: scale(1.2);transform: scale(1.2);}
+.b2:hover {background: #FFDE5A;-webkit-transform: scale(1.2);-ms-transform: scale(1.2);transform: scale(1.2);}
+.b3:hover {background: #FFDE5A;-webkit-transform: scale(1.2);-ms-transform: scale(1.2);transform: scale(1.2);}
+.b4:hover {background: #FFDE5A;-webkit-transform: scale(1.2);-ms-transform: scale(1.2);transform: scale(1.2);}
+.b5:hover {background: #FFDE5A;-webkit-transform: scale(1.2);-ms-transform: scale(1.2);transform: scale(1.2);}
+.b6:hover {background: #FFDE5A;-webkit-transform: scale(1.2);-ms-transform: scale(1.2);transform: scale(1.2);}
+.b1{background: white;}
+.b2{background: white;}
+.b3{background: white;}
+.b4{background: white;}
+.b5{background: white;}
+.b6{background: white;}
+.b1 a {color: black;}
+.b2 a {color: black;}
+.b3 a {color: black;}
+.b4 a {color: black;}
+.b5 a {color: black;}
+.b6 a {color: black;}
+.reg {
+	width: 800px;
+	height: 600px;
+	background: #FFDE5A;
+	overflow: hidden;
+	margin: 0 auto;
+}
+form {
+    border: 3px solid #ffde5a;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 0px 18px;
+    background-color: #f44336;
+    margin-left: 160px;
+}
+
+.cancelbtn a {
+	padding: 1em;
+	display: block;
+	color: black;
+}
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+.avatar {
+    width: 200px;
+    border-radius: 20%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 80%;
+    }
+}
+.psw a {color: black;}
+.b {
+	font-family:'Lora', serif;
+	font-size: 140%;
+}
+.i {
+   font-family:'Lora', serif;
+   font-size: 22px;
+   color: 	#332f2c;
+   font-weight: bold;
+   margin-top: 20px;
+}
+div .a {
+	display: block;
+	height: 100%;
+}
